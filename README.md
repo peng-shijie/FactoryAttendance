@@ -38,8 +38,8 @@ FactoryAttendance 是一个用 Python 编写的考勤信息获取与统计分析
 ```
 FactoryAttendance/
 ├── get_data/           # API接口相关代码
-├── data/          # 数据存储与处理
-├── app.py        # 主程序入口
+├── data/               # 数据存储与处理
+├── app.py              # 主程序入口
 ├── requirements.txt
 └── README.md
 ```
