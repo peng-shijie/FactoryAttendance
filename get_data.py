@@ -31,21 +31,21 @@ headers = {
 def getaccesstoken():
     unix = int(time.time() * 1000)
 
-    team_data = {'appId': 'SP13410137',
+    team_data = {'appId': '***',
              'eid': '***',
              'secret': '***',
              'timestamp': unix,
              'scope': 'team'
             }
     
-    app_data = {'appId': '500893729',
+    app_data = {'appId': '***',
              'secret': '***',
              'timestamp': unix,
              'scope': 'app'
             }
     
     resGroupSecret_data =  {
-                        "eid": "13410137",
+                        "eid": "***",
                         "secret": "***",
                         "timestamp": unix,
                         "scope": "***"
@@ -86,7 +86,7 @@ def examples(formInstId,team_response):
 def people(openId,app_response):
     people_data = {
                     "openId": openId,
-                    "eid":"13410137",
+                    "eid":"***",
                     "time":int(time.time() * 1000)
                     }
     
