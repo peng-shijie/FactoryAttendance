@@ -32,23 +32,23 @@ def getaccesstoken():
     unix = int(time.time() * 1000)
 
     team_data = {'appId': 'SP13410137',
-             'eid': '13410137',
-             'secret': 'T2iFaqJkwdafR4ri3257x2WJ7VRBgU',
+             'eid': '***',
+             'secret': '***',
              'timestamp': unix,
              'scope': 'team'
             }
     
     app_data = {'appId': '500893729',
-             'secret': '61zQdviLMMQGvyzNnkEr',
+             'secret': '***',
              'timestamp': unix,
              'scope': 'app'
             }
     
     resGroupSecret_data =  {
                         "eid": "13410137",
-                        "secret": "IPGx7HUPuFbQk1gEGeapszRqz7Dbgx1z",
+                        "secret": "***",
                         "timestamp": unix,
-                        "scope": "resGroupSecret"
+                        "scope": "***"
                     }
     
     team_response = requests.post(url, data=json.dumps(team_data), headers=headers)
